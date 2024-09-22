@@ -1,0 +1,36 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+background: linear-gradient(90deg, rgb(199, 100, 235) 0%, hsla(232, 90%, 59%, 1) 100%);
+}
+
+.find_btn{
+    background: linear-gradient(90deg, rgb(199, 100, 235) 0%, hsla(232, 90%, 59%, 1) 100%);
+    color:white;
+    font-size: 20px;
+}
+
+.header_text{
+color:white;
+}
+
+.name{
+    background-image: linear-gradient(to right, #015ed6,#a3116d);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.paragraph_text{
+    color:rgb(230, 230, 230);
+}
+
+.contact a:hover{
+    color:white;
+}

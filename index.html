@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Match Word</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <div class="hero  min-h-screen">
+        <div class="hero-content flex-col">
+            <div class="text-center">
+                <h1 class="text-5xl font-bold header_text" id="output2">Find Your Word with Disorder Letters </h1>
+                <p class="py-6 paragraph_text">Hi, It's me <span class="name">Sagor Ahmed</span>. I've created this awesome web Application to help you.It helps you to find out the word with some letters.</p>
+            </div>
+            <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mb-10">
+                <form class="card-body">
+                    <div class="form-control">
+                        <label class="label">
+                            <span class="label-text">Disorder letters</span>
+                        </label>
+                        <input type="text" id="letter" placeholder="Enter disorder letter" class="input input-bordered">
+                    </div>
+                    <div class="form-control">
+                        <label class="label">
+                            <span class="label-text">Length (Optional)</span>
+                        </label>
+                        <input type="number" id="length" placeholder="Enter length of the word"
+                            class="input input-bordered">
+                    </div>
+
+                    <div class="form-control">
+                        <label class="label">
+                            <span class="label-text">First letter (Optional)</span>
+                        </label>
+                        <input type="text" id="first_letter" placeholder="Enter first letter" class="input input-bordered">
+                    </div>
+                    <div class="form-control">
+                        <label class="label">
+                            <span class="label-text">Last letter (Optional)</span>
+                        </label>
+                        <input type="text" id="last_letter" placeholder="Enter last letter" class="input input-bordered">
+                    </div>
+
+                    <div class="form-control mt-6">
+                        <button id="btn" class="btn  find_btn">Find</button>
+                    </div>
+                    <div id="output_container"
+                        class="flex hidden flex-col mt-5 items-center justify-center w-[100%] border px-2">
+                        <h2 id="output" class="text-lg font-bold color-fuchsia-50 py-3"></h2>
+                    </div>
+                </form>
+            </div>
+
+            <div class="contact flex flex-col justify-center items-center">
+                <div class="text-slate-200">Connect with me</div>
+                <div class="gap-2 flex">
+                    <a href="https://web.facebook.com/profile.php?id=100082155062085" target="_blank"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/ashraf-niloy-b2736b221/" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/sagorahmed51242" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+             </div>
+        </div>
+    </div>
+
+
+
+
+
+<script src="app.js"></script>
+<script src="data.js"></script>
+</body>
+
+</html>
